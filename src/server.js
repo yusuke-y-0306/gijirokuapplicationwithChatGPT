@@ -10,7 +10,7 @@ const path = require('path');
 const fs = require('fs');
 const { Configuration, OpenAIApi } = require('openai');
 
-const configuration = new Configuration({apiKey: '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',});
+const configuration = new Configuration({apiKey: 'overwrite your apikey here',});
 const openai = new OpenAIApi(configuration);
 
 app.use(express.static('public'));
