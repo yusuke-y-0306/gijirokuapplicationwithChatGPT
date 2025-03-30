@@ -1,0 +1,17 @@
+{
+  "name": "gijiroku_application",
+  "version": "1.0.0",
+  "description": "Real-time transcription app",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "music-metadata": "^10.5.1",
+    "openai": "^3.3.0",
+    "socket.io": "^4.8.0",
+    "socket.io-client": "^4.8.0",
+    "wavefile": "^11.0.0"
+  }
+}

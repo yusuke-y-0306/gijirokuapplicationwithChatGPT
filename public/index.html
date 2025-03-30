@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+    <title>Audio Streaming</title>
+</head>
+<body>
+    <h1>Audio Streaming</h1>
+    <div>
+        <button onClick="startRecording()">recording start and timely summarization</button>
+        <br>
+        <br>
+        <br>
+        <button onClick="stopRecording()">recording stop and final summarization</button>
+    </div>
+    <div>
+        <h2>文字起こし</h2>
+        <p id="transcription"></p>
+    </div>
+    <div>
+        <h2>要約</h2>
+        <p id="summary"></p>
+    </div>
+</body>
+</html>
