@@ -1,3 +1,7 @@
+
+overwite apiKey with your ChatGPT account apiKey
+![image](https://github.com/user-attachments/assets/cb486426-141f-4f30-918d-47bf29f41bf6)
+
 npm start
 
 http://localhost:3000/
